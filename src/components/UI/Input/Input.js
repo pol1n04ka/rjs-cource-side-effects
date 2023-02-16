@@ -4,10 +4,6 @@ import styles from "./Input.module.css";
 const Input = React.forwardRef((props, ref) => {
   const inputRef = useRef();
 
-  // useEffect(() => {
-  //   inputRef.current.focus();
-  // }, []);
-
   const activateFocus = () => {
     inputRef.current.focus();
   };
